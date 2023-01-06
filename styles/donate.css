@@ -44,12 +44,12 @@ header {
     background-color: #fa4549;
     color: aliceblue;
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 30px;
     padding: 15px 30px;
 }
 /* donate today */
-.donate-today{
+.donate-today, .donate-plan{
     text-align: center;
     padding-top: 100px;
 }
@@ -71,7 +71,7 @@ header {
     display: inline;
     font-size: 50px;
     color: rgb(145, 140, 140);
-    font-weight: 500;
+    font-weight: 400;
     margin: 30px;
     padding: 30px;
     background: rgb(240, 240, 240);
@@ -86,7 +86,7 @@ header {
     margin: -30px;
     padding: 30px;
 }
-input{
+.donate-today input{
     border: 0;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
@@ -97,8 +97,101 @@ input{
     padding-bottom: 30px;
     color: #fa454818;
     padding-bottom: 30px ;
-    padding-left: 570px;
-    padding-right: 570px;
+    padding-left: 580px;
+    padding-right: 540px;
+}
+/* donate plan styles */
+.donate-plan-description{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 50px; 
+}
+.donate-purpose-container{
+    padding: 0px 550px;
+    margin-left: 50px;
+}
+.donate-purpose{
+    display: flex;
+    text-align: left;
+    gap: 28px;
+}
+.donate-purpose h3{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.donate-purpose p{
+    font-size: 20px;
+}
+.food{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 50px 50px 50px 30px;
+}
+.shelter{
+    background-color: rgb(252, 223, 223);
+    border-radius: 5px;
+    padding: 50px 30px 50px 15px;
+}
+.education{
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 50px 30px 50px 15px;
+}
+/* lives depend sections styles */
+.live-depend{
+    display: flex;
+    padding-top: 100px;
+    gap: 60px;
+    margin-left: 620px;
+    align-items: center;
+}
+.live-depend img{
+    border-radius: 5px;
+    height: 500px;
+    width: 600px;
+}
+.live-depend-summary h2{
+    font-size: 45px;
+}
+.live-depend-summary p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* my updates */
+.my-updates{
+    text-align: center;
+    padding-top: 100px;
+}
+.email-part-container{
+    padding: 0px 700px 200px 700px;
+}
+.email-part{
+    display: flex;
+    background-color:lightyellow;
+    padding: 100px;
+}
+.email-part input{
+        border: 0;
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 16px;
+        background-color: rgb(211, 211, 211);
+        margin-left: 150px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+}
+.btn-secondery {
+    background-color: #fa4549;
+    color: aliceblue;
+    border: 0;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+    font-size: 30px;
+    padding: 15px 30px;
 }
 /* footer styles */
 footer {
